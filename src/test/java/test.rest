@@ -1,0 +1,28 @@
+    #http-method
+    DELETE
+
+    #url
+    http://localhost:8080/deleteBuddy/1
+
+    #http-header
+    @Content-Type: application/json
+
+%%%
+
+# Duration: 32 ms
+# URL: http://localhost:8080/deleteBuddy/1
+
+# HTTP/1.1 400
+
+@Content-Type: application/json
+@Transfer-Encoding: chunked
+@Date: Fri, 05 Feb 2021 17:17:53 GMT
+@Connection: close
+
+{
+  "timestamp": "2021-02-05T17:17:53.328+00:00",
+  "status": 400,
+  "error": "Bad Request",
+  "message": "",
+  "path": "/deleteBuddy/1"
+}
